@@ -1,6 +1,7 @@
 require "./config/environment"
 require "./app/models/user"
-require 'pry'class ApplicationController < Sinatra::Base
+require 'pry'
+class ApplicationController < Sinatra::Base
 
   configure do
     set :views, "app/views"
